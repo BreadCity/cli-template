@@ -7,6 +7,10 @@ export default {
     format: 'cjs'
   },
   plugins: [typescript({
-    allowSyntheticDefaultImports: true
+    allowSyntheticDefaultImports: true,
+    sourceMap: true,
+    sourceRoot: 'dist',
+    declaration: true,
+    declarationDir: 'dist',
   })]
 };
