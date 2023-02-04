@@ -1,6 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
+  '@exponentialworkload/logger': ^1.0.2
   '@rollup/plugin-typescript': ^11.0.0
   '@types/node': ^18.11.18
   '@types/prompts': ^2.4.2
@@ -12,6 +13,7 @@ specifiers:
   typescript: ^4.9.5
 
 dependencies:
+  '@exponentialworkload/logger': 1.0.2
   chalk: 4.1.2
   get-cursor-position: 2.0.0
   prompts: 2.4.2
@@ -25,6 +27,14 @@ devDependencies:
   typescript: 4.9.5
 
 packages:
+
+  /@exponentialworkload/logger/1.0.2:
+    resolution: {integrity: sha512-HnbrpQM0xMlPWsvrWWG5KkhoH0l8Uyd4kFL3WYjxqlaYL4GEyZZM0yhgIb3ZLlJTFOvSFxaS7O343WzElO9BHQ==}
+    dependencies:
+      chalk: 4.1.2
+      get-cursor-position: 2.0.0
+      prompts: 2.4.2
+    dev: false
 
   /@rollup/plugin-typescript/11.0.0_og23ixj3zxbjeob3r7yo2qpztm:
     resolution: {integrity: sha512-goPyCWBiimk1iJgSTgsehFD5OOFHiAknrRJjqFCudcW8JtWiBlK284Xnn4flqMqg6YAjVG/EE+3aVzrL5qNSzQ==}

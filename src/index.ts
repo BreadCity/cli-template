@@ -1,5 +1,5 @@
 import prompts from 'prompts';
-import Logger from './Logger';
+import Logger from '@exponentialworkload/logger';
 Logger.postGuillemet=true;
 (async()=>{
   const logger = new Logger()
